@@ -1,0 +1,27 @@
+# LinkedIn post — Telecom Customer Churn Prediction
+# (publish after GitHub push; replace REPO_URL)
+
+From predictions to prevention 📊
+
+New project: predicting telecom customer churn with machine learning.
+
+Using 7,043 real customer records (IBM's telco dataset), I built and
+benchmarked three models — logistic regression, random forest, and gradient
+boosting — with proper handling of class imbalance and 5-fold
+cross-validation.
+
+The winner surprised me: plain logistic regression (ROC-AUC 0.841, 78%
+recall) beat both tree ensembles. Sometimes the simpler model wins, and
+that's worth reporting honestly.
+
+The business payoff: the model flags a high-risk segment of 1,783 customers
+churning at 62.6% vs 26.5% overall — month-to-month contracts, fiber optic,
+no tech support. That's exactly who a retention campaign should target in a
+customer's first 6 months.
+
+Top churn drivers: tenure (by far), internet service, contract type,
+monthly charges.
+
+Code, notebook, metrics and charts: REPO_URL
+
+#MachineLearning #DataAnalytics #Python #scikitlearn #ChurnPrediction
